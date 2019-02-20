@@ -8,6 +8,7 @@ public class Table {
     private List<Parent> Parents = new ArrayList<Parent>();
     private List<Field> Fields = new ArrayList<Field>();
 
+
     public String getTableName() {
         return tableName;
     }
