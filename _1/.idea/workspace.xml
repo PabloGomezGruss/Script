@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="022d818d-bc1e-4bfb-b6ce-601b86b3eb4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/prueba.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/prueba.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -266,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550663163513" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550663524725" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
@@ -287,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="1" />
@@ -331,8 +329,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ejemplo_libreria_artur_tamazian" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ejemplo_libreria_artur_tamazian" />
         <item itemvalue="JUnit.prueba.pruebaScript" />
         <item itemvalue="JUnit.prueba" />
       </list>
