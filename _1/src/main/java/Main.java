@@ -30,7 +30,7 @@ public class Main {
 
         AvroConfig avroConfig = new AvroConfig("some.namespace");
         // Get avro models for a few tables
-        List<AvroSchema> schemas = schemaExtractor.getForTables(avroConfig, "test_avro", "accesorios","altas");
+        List<AvroSchema> schemas = schemaExtractor.getForTables(avroConfig, "test_avro", "clientes_maestro_raw","internet_raw","clientes_raw","productos_asociados_raw","fibra_raw","telefonia_movil_raw","telefonia_raw","lte_raw","productos_raw");
 
         for (AvroSchema schema : schemas) {
             //Pass avro model to SchemaGenerator, get schema and print it out.
@@ -74,8 +74,12 @@ public class Main {
 
         String tipo = type.getType().getPrimitiveType();
 
-        if(tipo.equals("double") || tipo.equals("int")) tipo = "Integer";
-        else if(tipo.equals("string") || tipo.equals("boolean")) tipo = "String";
+        if(tipo.equals("double")) tipo = "Integer";
+            else if(tipo.equals("int")) tipo = "Integer";
+                else if(tipo.equals("string")) tipo = "String";
+                    else if (tipo.equals("boolean")) tipo = "String";
+                        else if (tipo.equals("long")) tipo = "String";
+                            else if (tipo.equals("enum")) tipo = "String";
 
         if(type.isNullable()){
             return "Option[" + tipo + "]";
