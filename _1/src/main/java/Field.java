@@ -1,3 +1,6 @@
+import com.at.avro.AvroField;
+import com.at.avro.AvroType;
+
 public class Field {
     private String fieldname = null;
     private String type = null;

@@ -1,3 +1,5 @@
+import com.at.avro.AvroSchema;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -58,5 +60,9 @@ public class Structure implements Serializable {
 
     public void setTables(List<Table> Tables) {
         this.Tables = Tables;
+    }
+
+    public void newTable(Table tabla) {
+        this.Tables.add(tabla);
     }
 }
